@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "VERSION 3 - AUTO DEPLOY"
+    return "Testowa strona 123456"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
